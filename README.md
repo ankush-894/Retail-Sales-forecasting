@@ -41,15 +41,6 @@ For ARIMA/SARIMA the daily series is reindexed to a continuous daily frequency, 
 - Linear Regression has the highest R² (0.04) but also the highest MAE (about 778). Its R² is only marginally above zero, so calling it the "best" model is a weak claim.
 - Daily sales are noisy and spiky, so daily-level forecasting is hard with these methods. Aggregating to weekly or monthly sales, adding lag features, or trying tree-based models would be sensible next steps.
 
-## Repository Structure
-
-```
-.
-├── Assignment_6_1.ipynb          # Main notebook
-├── stores_sales_forecasting.csv  # Dataset (see below)
-└── README.md
-```
-
 ## Dataset
 
 `stores_sales_forecasting.csv`, a retail store sales dataset with order dates and sales values, sourced from Kaggle. Add the dataset link here: `<https://www.kaggle.com/datasets/tanayatipre/store-sales-forecasting-dataset>`. The file is read with `encoding='cp1252'`.
